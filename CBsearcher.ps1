@@ -42,5 +42,10 @@ foreach($item in $hashsearcher)
 	}
 }
 
-$refined | group | select Name,Count | sort Count -descending
-($refined | sort -unique).Length
+#$refined | group | select Name,Count | sort Count -descending
+#($refined | sort -unique).Length
+$refined += Get-Content -Path ".\Devicecount.txt"
+$refined = $refined | sort -Unique
+$refined
+$refined.Length
+$refined | Out-File -FilePath ".\Devicecount.txt"
