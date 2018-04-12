@@ -1,4 +1,4 @@
-$key = @{'X-AUTH-TOKEN' = 'GWWNPWL1NZ7Y6KIGGN7RZ8UC/FBIYPINDAA'}
+$key = @{'X-AUTH-TOKEN' = '/'}
 $searcher =@('purgecodev2.exe')
 $hashsearcher = @()#doesnt appear to work well
 $searcher = $searcher | sort -unique
