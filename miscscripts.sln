@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72B7EDDC-6083-467E-9C36-60BD529EE5CD}"
+	ProjectSection(SolutionItems) = preProject
+		CbAutoWrapper.ps1 = CbAutoWrapper.ps1
+		CBsearcher.ps1 = CBsearcher.ps1
+		get-pip.py = get-pip.py
+		pipupdater.py = pipupdater.py
+		rundeckcronwrapper.sh = rundeckcronwrapper.sh
+		rundeckrunner.sh = rundeckrunner.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9775543B-D242-4ADC-9CCB-3DE8D6344FD6}
+	EndGlobalSection
+EndGlobal
